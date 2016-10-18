@@ -2,8 +2,9 @@
 This tiny helper function helps you output normal php session flash data in a bootstrap alert dialog
 This helper function 
 Requires:
- <b>Codeigniter</b>
- <b>Bootstrap</b>
+ 1. <b>Codeigniter</b>
+ 2. <b>Bootstrap</b>
+ 
 There are just two methods in this helper:
  1. doBootstrapAlert($message, $alertType)
  2. echoBootstrapAlert()
@@ -11,11 +12,11 @@ There are just two methods in this helper:
 function doBoostrapAlert takes two arguments:
  - $message: the message to be displayed in the alert dialog. It can contain html tags like <strong></strong> etc.
  - $alertType: the value of the alert dialog type. This determines the color of the alert dialog
-     e.g success -> green
-         warning -> yellow
-         danger -> red
-         primary -> deep blue
-         info -> light blue
+     e.g - success -> green
+         - warning -> yellow
+         - danger -> red
+         - primary -> deep blue
+         - info -> light blue
          
 
 To use this helper, clone or download this file into your localhost, 
